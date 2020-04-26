@@ -56,6 +56,10 @@ class ContainerMainWidget extends StatelessWidget {
               ),
               borderRadius: BorderRadius.circular(12),
             ),
+            constraints: BoxConstraints(
+              minWidth: 200,
+              minHeight: 100,
+            ),
           ),
         ],
       )

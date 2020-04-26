@@ -12,6 +12,21 @@ import './widgets/text/rich_tech.dart';
 
 import './layouts/container/container.dart';
 import './layouts/container/container_main.dart';
+import './layouts/container/container_decoration.dart';
+
+import './layouts/stack/stack.dart';
+import './layouts/stack/stack_standard.dart';
+import './layouts/stack/stack_align.dart';
+import './layouts/stack/stack_positioned.dart';
+import './layouts/stack/indexed_stack.dart';
+import './layouts/stack/example1.dart';
+
+import './widgets/button/button.dart';
+import './widgets/button/button_Flat.dart';
+import './widgets/button/raised_button.dart';
+import './widgets/button/button_icon.dart';
+import './widgets/button/button_dropdown.dart';
+import './widgets/button/event.dart';
 
 void main() => runApp(MyApp());
 
@@ -53,6 +68,23 @@ class MyApp extends StatelessWidget {
         // '/text/overflow' : (ctx) => TextOverflowWidget(),
         '/container' : (ctx) => ContainerWidget(),
         '/container/main' : (ctx) => ContainerMainWidget(),
+        '/container/decoration' : (ctx) => ContainerDecorationWidget(),
+
+        '/stack' : (ctx) => StackWidget(),
+        '/stack/standard' : (ctx) => StackStandardWidget(),
+        '/stack/align' : (ctx) => StackAlignWidget(),
+        '/stack/positioned' : (ctx) => StackPositionedWidget(),
+        '/stack/indexed' : (ctx) => IndexedStackWidget(),
+        '/stack/example_1' : (ctx) => ExampleStack1Widget(),
+
+        '/button' : (ctx) => ButtonWidget(),
+        '/button/flatbutton' : (ctx) => FlatButtonWidget(),
+        '/button/raisedbutton' : (ctx) => RaisedButtonWidget(),
+        '/button/icon' : (ctx) => IconButtonWidget(),
+        '/button/dropdownbutton' : (ctx) => DropdownButtonWidget(),
+
+        '/button/event' : (ctx) => EventWidget(),
+
       },
     );
   }

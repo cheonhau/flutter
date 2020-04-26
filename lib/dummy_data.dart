@@ -21,18 +21,18 @@ const DUMMY_CATEGORIES = const [
     color: Colors.orange,
     url: '/container',
   ),
-  // Category(
-  //   id: 'c4',
-  //   title: 'German',
-  //   color: Colors.amber,
-  //   url: '/text',
-  // ),
-  // Category(
-  //   id: 'c5',
-  //   title: 'Light & Lovely',
-  //   color: Colors.blue,
-  //   url: '/text',
-  // ),
+  Category(
+    id: 'c4',
+    title: 'Stack',
+    color: Colors.amber,
+    url: '/stack',
+  ),
+  Category(
+    id: 'c5',
+    title: 'Button',
+    color: Colors.blue,
+    url: '/button',
+  ),
   // Category(
   //   id: 'c6',
   //   title: 'Exotic',
@@ -111,12 +111,12 @@ const DUMMY_CONTAINER = const [
       color: Colors.purple,
       url: '/container/main',
     ),
-    // Category(
-    //   id: '2',
-    //   title: 'Text Style',
-    //   color: Colors.red,
-    //   url: '/text/style',
-    // ),
+    Category(
+      id: '2',
+      title: 'decoration',
+      color: Colors.red,
+      url: '/container/decoration',
+    ),
     // Category(
     //   id: '3',
     //   title: 'Text Align',
@@ -135,4 +135,68 @@ const DUMMY_CONTAINER = const [
     //   color: Colors.blue,
     //   url: '/text/richtext',
     // ),
+];
+const DUMMY_STACK = const [
+    Category(
+      id: '2',
+      title: 'standard',
+      color: Colors.red,
+      url: '/stack/standard',
+    ),
+    Category(
+      id: '3',
+      title: 'align',
+      color: Colors.orange,
+      url: '/stack/align',
+    ),
+    Category(
+      id: '4',
+      title: 'positioned',
+      color: Colors.amber,
+      url: '/stack/positioned',
+    ),
+    Category(
+      id: '1',
+      title: 'Indexed Stack',
+      color: Colors.purple,
+      url: '/stack/indexed',
+    ),
+    Category(
+      id: '5',
+      title: 'Example 1',
+      color: Colors.blue,
+      url: '/stack/example_1',
+    ),
+];
+const DUMMY_BUTTON = const [
+    Category(
+      id: '1',
+      title: 'FlatButton',
+      color: Colors.red,
+      url: '/button/flatbutton',
+    ),
+    Category(
+      id: '2',
+      title: 'RaisedButton',
+      color: Colors.orange,
+      url: '/button/raisedbutton',
+    ),
+    Category(
+      id: '3',
+      title: 'DropdowButton',
+      color: Colors.amber,
+      url: '/button/dropdownbutton',
+    ),
+    Category(
+      id: '4',
+      title: 'Icon Button',
+      color: Colors.purple,
+      url: '/button/icon',
+    ),
+    Category(
+      id: '5',
+      title: 'Event',
+      color: Colors.blue,
+      url: '/button/event',
+    ),
 ];

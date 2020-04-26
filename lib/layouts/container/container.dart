@@ -11,7 +11,7 @@ import '../../dummy_data.dart';
 //     EdgeInsetsGeometry padding,              : tạo padding với child
 //     Color color,                             : background cho container
 //     Decoration decoration,                   : nó nằm ở dưới child (kiểu absolute tương tự vậy)
-//     Decoration foregroundDecoration,         : nó nằm ở trên child nên nếu xét color đè lên color của child và decoration (nếu có)
+//     Decoration foregroundDecoration,         : nó nằm ở trên child nên nếu xét color đè lên color của child và decoration (nếu có), nó y chang decoration
 //     double width,                            : chiều rộng của container , sét double.infinity để lấy chiều rộng bằng chiều rộng parent
 //     double height,                           : chiều cao của container
 //     BoxConstraints constraints,              : 
